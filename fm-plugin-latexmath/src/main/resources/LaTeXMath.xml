@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<plugin label="plugins/latexmath">
+	<plugin_classpath jar="latexmath/fm-plugin-latexmath.jar"/>
+	<plugin_classpath jar="latexmath/jlatexmath.jar"/>
+	<plugin_action 
+			documentation="Latex Math" 
+			name="Latex Equation (JLaTeXMath)" 
+			base="freemind.extensions.NodeHookAdapter" 
+			label="plugins/latexmath" 
+			class_name="net.sf.alxa.fm.plugins.latexmath.LatexMathNodeHook" 
+			instanciation="Once">
+		<plugin_mode class_name="freemind.modes.mindmapmode"/>
+		<plugin_menu location="menu_bar/insert/other/LatexMathNodeHook"/>
+	</plugin_action>
+</plugin>

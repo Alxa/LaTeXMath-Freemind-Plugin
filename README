@@ -1,0 +1,23 @@
+LaTeXMath Freemind Plugin
+=========================
+
+This is an alternative plugin to enable latex equations on
+freemind mind maps. It's currently a port of 
+freeplane_plugin_latex, which uses JLaTeXMath for
+rendering latex.
+
+Building
+========
+
+Requirements:
+
+ - maven 2 
+ - java 6
+
+
+License
+=======
+
+http://www.gnu.org/licenses/gpl.html
+
+--//--

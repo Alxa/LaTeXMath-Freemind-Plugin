@@ -1,0 +1,64 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>net.sf.alxa.fm</groupId>
+	<artifactId>fm-plugin-latexmath</artifactId>
+	<name>fm-plugin-latexmath</name>
+	<version>0.0.1-SNAPSHOT</version>
+	<description>A jlatexmath plugin for freemind</description>
+
+	<repositories>
+		<repository>
+			<id>alxa-repo</id>
+			<name>Alxa's m2 repository</name>
+			<url>http://alxa.sourceforge.net/m2</url>
+		</repository>
+	</repositories>
+
+	<!--
+		A parent is used to define some common deploy options. You can remove
+		it if you wish.
+	-->
+	<parent>
+		<groupId>net.sf.alxa</groupId>
+		<artifactId>alxa-parent</artifactId>
+		<version>1.0-SNAPSHOT</version>
+	</parent>
+
+
+	<dependencies>
+		<dependency>
+			<groupId>net.sf.alxa</groupId>
+			<artifactId>jlatexmath</artifactId>
+			<version>0.9.1-SNAPSHOT</version>
+			
+		</dependency>
+		<dependency>
+			<groupId>net.sf.alxa.fm</groupId>
+			<artifactId>freemind-api</artifactId>
+			<version>0.9.0-SNAPSHOT</version>
+			<scope>compile</scope>
+		</dependency>
+	</dependencies>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>1.6</source>
+					<target>1.6</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+	<licenses>
+		<license>
+			<name>GPL</name>
+			<url>http://www.gnu.org/copyleft/gpl.html</url>
+		</license>
+	</licenses>
+
+
+
+</project>
