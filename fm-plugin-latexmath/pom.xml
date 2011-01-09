@@ -4,7 +4,7 @@
 	<groupId>net.sf.alxa.fm</groupId>
 	<artifactId>fm-plugin-latexmath</artifactId>
 	<name>fm-plugin-latexmath</name>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<description>A jlatexmath plugin for freemind</description>
 
 	<repositories>
