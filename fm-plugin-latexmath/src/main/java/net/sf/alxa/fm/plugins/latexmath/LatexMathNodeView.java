@@ -48,9 +48,7 @@ import freemind.view.mindmapview.MapView;
 public class LatexMathNodeView extends JComponent {
 	// constants
 	private static final long serialVersionUID = 1L;
-	private static final int FONT_SIZE_DEFAULT = 14;
-//	private static final int FONT_SIZE_MIN = 4;
-//	private static final int FONT_SIZE_MAX = 50;
+	private static final int FONT_SIZE_DEFAULT = 18;
 	
 	
 	private int paddingTop = 5; // TODO configurable insets
