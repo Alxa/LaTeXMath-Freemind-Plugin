@@ -26,7 +26,7 @@ You'll need to provide the following 3 files:
   from your local repository, as it should be downloaded 
   automatically via maven in the previous step, eg.:
 
-  ls ~/.m2/repository/net/sf/alxa/jlatexmath/0.9.1-SNAPSHOT/
+  ls ~/.m2/repository/net/sf/alxa/jlatexmath/0.9.3-SNAPSHOT/*jar
  
   Look for the latest and rename it accordingly.
 
