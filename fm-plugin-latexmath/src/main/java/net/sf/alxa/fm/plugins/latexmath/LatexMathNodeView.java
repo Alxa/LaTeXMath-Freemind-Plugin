@@ -96,6 +96,10 @@ public class LatexMathNodeView extends JComponent {
 		this.zoom = mapZoom;
 		final Insets insets = getInsets();
 		insets.top = paddingTop;
+		if(latexIcon==null){
+			// FIXME ugly hack
+			updateTexIcon();
+		}
 		final Dimension dimension = new Dimension(latexIcon.getIconWidth()
 				+ insets.left + insets.right, latexIcon.getIconHeight()
 				+ insets.top + insets.bottom);
